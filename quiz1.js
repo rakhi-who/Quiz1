@@ -76,7 +76,7 @@ const startover = document.querySelector(".start");
   check.addEventListener('click',results);
    function results(){
     if(result<5){
-      section.innerHTML = `<h2>congratulations ! you completad the quiz🥳 .</h2>
+      section.innerHTML = `<h2>congratulations ! you completed the quiz🥳 .</h2>
       <h4>let's see how smart you are!</h4>
        <h3>you scored ${result} out of ${gk.length}</h3>
        <h3>that means ,you are really stupid 😂.</h3>
@@ -85,7 +85,7 @@ const startover = document.querySelector(".start");
  `;
    
     }else if(result>=5&& result<8){
-      section.innerHTML =  `<h2>congratulations ! you completad the quiz 🥳.</h2>
+      section.innerHTML =  `<h2>congratulations ! you completed the quiz 🥳.</h2>
       <h4>let's see how smart you are!</h4>
        <h3>you scored ${result} out of ${gk.length}</h3>
        <h3>that means ,you are smart but not as much as me🫥 .</h3>
@@ -95,7 +95,7 @@ const startover = document.querySelector(".start");
        
   
     }else if(result<=8){
-      section.innerHTML =  `<h2>congratulations ! you completad the quiz 🥳.</h2>
+      section.innerHTML =  `<h2>congratulations ! you completed the quiz 🥳.</h2>
       <h4>let's see how smart you are!</h4>
        <h3>you scored ${result} out of ${gk.length}</h3>
        <h3>that means ,you are smart but i bet you are not smarter than me 👍🏻😎 .</h3>
